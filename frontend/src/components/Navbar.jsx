@@ -1,6 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Zap } from 'lucide-react';
-import styled from './Navbar.module.css';
 
 export default function Navbar() {
   const { pathname } = useLocation();
